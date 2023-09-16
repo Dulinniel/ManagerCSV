@@ -31,4 +31,4 @@ csv_file.write_csv(datas)
 To write into a file you have to provide a 2-dimensional array, Each Subarray in the main array represents columns and the data present in them, will be displayed on rows.
 In this case, the csv file, will looks like this
 
-![view of a csv file](./github/csv_file_preview.png)
+![view of a csv file](https://github.com/Dulinniel/RandomCSVManager/blob/main/github/ressources/csv_file_preview.png)
