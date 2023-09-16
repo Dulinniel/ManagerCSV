@@ -1,5 +1,5 @@
 [project]
-name = "RandomCSVManager"
+name = "CSVManager"
 version = "0.0.1"
 authors = [
   { name = "Dulinniel", email= "nightingalenervous@gmail.com" },
@@ -15,5 +15,5 @@ classifiers = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/Dulinniel/RandomCSVManager/tree/main"
-"Bug Tracker" = "https://github.com/Dulinniel/RandomCSVManager/issues"
+"Homepage" = "https://github.com/Dulinniel/CSVManager/tree/main"
+"Bug Tracker" = "https://github.com/Dulinniel/CSVManager/issues"
