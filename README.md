@@ -11,7 +11,7 @@ from CSVManager import CSV_manager
 csv_file = CSV_manager("/path/to/your/file")
 
 for values in csv_file.read_csv():
-  print(value)
+  print(values)
 ```
 
 Since the `read_csv` method, return a generator of lists, you must iterate over it to read the file content.
