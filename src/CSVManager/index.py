@@ -45,8 +45,9 @@ class CSV_manager:
       else:
         with open(script_dir, 'a') as f:
           for row in data:
-            joined_row: str = ', '.join(map(str, row))
-            f.write(joined_row + '\n')
+            print(row)
+            joined_row: str = f'{", ".join(map(str, row))}\n'
+            f.write(joined_row)
           f.close()
     else:
       raise ValueError("This is not a valid CSV file, please provide a valide CSV file. file: " + filename)
