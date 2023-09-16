@@ -1,5 +1,5 @@
 [project]
-name = "CSVManager"
+name = "ManagerCSV"
 version = "0.0.1"
 authors = [
   { name = "Dulinniel", email= "nightingalenervous@gmail.com" },

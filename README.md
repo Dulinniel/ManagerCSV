@@ -1,4 +1,4 @@
-# CSVManager
+# ManagerCSV
 Just a random package to deal with csv file.
 
 ## Usage
@@ -6,7 +6,7 @@ Just a random package to deal with csv file.
 **__Read a file__**:
 
 ```py
-from CSVManager import CSV_manager
+from ManagerCSV import CSV_manager
 
 csv_file = CSV_manager("/path/to/your/file")
 
@@ -19,7 +19,7 @@ Since the `read_csv` method, return a generator of lists, you must iterate over 
 **__Write a file__**:
 
 ```py
-from CSVManager import CSV_manager
+from ManagerCSV import CSV_manager
 
 csv_file = CSV_manager("/path/to/your/file")
 
