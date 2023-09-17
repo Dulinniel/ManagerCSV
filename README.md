@@ -1,12 +1,20 @@
 # ManagerCSV
 Just a random package to deal with csv file.
 
+## Installation
+
+Just use pip 
+
+`pip install ManagerCSV`
+
 ## Usage
+
+For some reason, to import the lib you need to precise `.index` after the lib name
 
 **__Read a file__**:
 
 ```py
-from ManagerCSV import CSV_manager
+from ManagerCSV.index import CSV_manager
 
 csv_file = CSV_manager("/path/to/your/file")
 
@@ -19,7 +27,7 @@ Since the `read_csv` method, return a generator of lists, you must iterate over 
 **__Write a file__**:
 
 ```py
-from ManagerCSV import CSV_manager
+from ManagerCSV.index import CSV_manager
 
 csv_file = CSV_manager("/path/to/your/file")
 
